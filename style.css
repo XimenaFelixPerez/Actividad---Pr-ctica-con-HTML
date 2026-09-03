@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    color: #3a2e6e;
+}
+
+
+.container {
+    padding: 20px;
+}
+
+#parrafo-destacado {
+    color: #d64550;
+    font-weight: bold;
+}
+
+
+.parrafo-secundario {
+    color: #2f7d5f;
+}
+
+
+p {
+    color: #444;
+    line-height: 1.5;
+}
+
+img {
+    border-radius: 50%;
+    margin: 10px auto;
+    display: block;
+}
+
+
+
+.login-box {
+    max-width: 350px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.15);
+}
+/* para el telefono se vea bien */
+@media (max-width: 576px) {
+    img {
+        width: 130px;
+        height: 130px;
+    }
+}
