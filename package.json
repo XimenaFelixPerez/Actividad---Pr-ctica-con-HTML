@@ -1,0 +1,21 @@
+{
+  "name": "actividad---pr-ctica-con-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+    "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XimenaFelixPerez/Actividad---Pr-ctica-con-HTML.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/XimenaFelixPerez/Actividad---Pr-ctica-con-HTML/issues"
+  },
+  "homepage": "https://github.com/XimenaFelixPerez/Actividad---Pr-ctica-con-HTML#readme"
+}

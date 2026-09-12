@@ -17,10 +17,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="tags.html">Tags</a></li>
                     <li class="nav-item"><a class="nav-link" href="profile.html">Perfil</a></li>
                     <li class="nav-item"><a class="nav-link" href="archivo.html">Imagenes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="formulario.html">Formulario</a></li>
                 </ul>
             </div>
             </div>
@@ -39,26 +40,14 @@
             <input type="password" class="form-control" id="contrasena" name="contraseña">
             <br>
 
-            <button class="btn btn-outline-primary">Registrarme</button>
+            <button class="btn btn-outline-primary" id="btnRegistro">Registrarme</button>
 
-            <button class="btn btn-primary" onclick="login()">Iniciar Sesión</button>
+            <button class="btn btn-primary" id="btnLogin">Iniciar Sesión</button>
 
-            <script>
-            function login() {
-                let usuario = document.getElementById("usuario").value;
-                let contrasena = document.getElementById("contrasena").value;
-
-                if (usuario == "ximena" && contrasena == "12345") {
-                    window.location.href = "index.html";
-                } else {
-                    alert("Usuario o contraseña incorrectos");
-                }
-            }
-            </script>
 
         </div>
         </div>
-
+        <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
